@@ -15,10 +15,11 @@
 			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
 			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 		<![endif]-->
+		
 	</head>
 	<body>
 		<h1 class="text-center">Hello World</h1>
-
+		
 		<!-- jQuery -->
 		<script src="https://code.jquery.com/jquery.js"></script>
 		<!-- Bootstrap JavaScript -->
@@ -28,8 +29,8 @@
 			var calcula = prompt("Que deseas hacer? Tip: puedes sumar, restar, dividir o multiplicar");
 			var number1 = prompt("Ingresa el primer numero");
 			var number2 = prompt("Ingresa el segundo numero");
-			var a = parseInt(number1);
-			var b = parseInt(number2);
+			var a = parseFloat(number1, 10);
+			var b = parseFloat(number2, 10);
 
 			var calculadora = function(){ 
 				if(calcula == "sumar"){
